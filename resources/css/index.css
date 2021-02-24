@@ -18,6 +18,8 @@ body {
     text-transform: uppercase;
     color: #9DA65D;
     padding-left: 3%;
+    display: inline-flex;
+    width: 50%;
 }
 
 .s {
@@ -26,9 +28,18 @@ body {
     color: #6C733D;
 }
 
+.italic {
+    font-family: 'Cabin', sans-serif;
+    font-style: italic;
+    color: #8C8C88;
+    font-size: 18px;
+    text-transform: none;
+    margin: 0;
+}
+
 .header--list--container {
     display: inline-flex;
-    width: 100%;
+    width: 50%;
     list-style-type: none;
     justify-content: space-evenly;
     padding-left: 30%;
@@ -44,23 +55,60 @@ a {
 }
 
 /*BANNER SECTION*/
-.banner--img {
+.banner--container {
+    display: flex;
     width: 100%;
-    position: absolute;
+    height: 700px;
+}   
+  
+
+.banner--img {
+    position: relative;
+    width: 100%;
 }
 
-.banner--quote {
-    position: relative;
+
+.banner--message {
+    position: absolute;
     z-index: 1;
     background-color: #9DA65D;
     color: #202426;
-    width: 34%;
-    font-size: 34px;
+    font-size: 32px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    margin-left: 51%;
-    margin-top: 25%;
-    padding-left: 4%;
-    border: 5px solid #F2F2F2;
-    
+    margin-left: 53%;
+    margin-top: 22%;
+    padding: 2%;
+    border: 5px solid #F2F2F2; 
+}
+
+/*QUOTE SECTION*/
+
+.quote--container {
+    background-color: #8C8C88;
+    width: 100%;
+    height: 150px;
+}
+
+.quote {
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+    justify-content: center;
+    padding-top: 3%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 26px;
+    color:#F2F2F2;  
+    letter-spacing: 0.15rem;
+}
+
+.quote--subhead {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color:#F2F2F2;  
+
 }
