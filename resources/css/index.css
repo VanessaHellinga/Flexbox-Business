@@ -82,7 +82,7 @@ a {
     a {
         margin-bottom: 5%;
         padding: 2px;
-        border: 0.5px solid #6C733D;
+        border: 1px solid #6C733D;
         font-size: 18px;
     }  
 }
@@ -232,7 +232,7 @@ a {
     }
     .contact {
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
         padding: 0.5%;
         margin: 0.5%;
     }
