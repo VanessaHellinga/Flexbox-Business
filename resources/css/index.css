@@ -42,3 +42,25 @@ a {
     font-size: 18px;
     font-family: 'Cabin', sans-serif;
 }
+
+/*BANNER SECTION*/
+.banner--img {
+    width: 100%;
+    position: absolute;
+}
+
+.banner--quote {
+    position: relative;
+    z-index: 1;
+    background-color: #9DA65D;
+    color: #202426;
+    width: 34%;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 51%;
+    margin-top: 25%;
+    padding-left: 4%;
+    border: 5px solid #F2F2F2;
+    
+}
