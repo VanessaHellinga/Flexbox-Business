@@ -124,11 +124,8 @@ a {
     }  
 
     .banner--message {
-        color: #202426;
         font-size: 14px;
         font-weight: 400;
-        opacity: 0.7;
-        margin-top: 20%;
         padding: 1%;
     }
     
