@@ -110,5 +110,19 @@ a {
     font-style: italic;
     font-size: 18px;
     color:#F2F2F2;  
-
 }
+
+/*PROJECTS SECTION*/
+
+.projects--container {
+    width: 100%;
+    height: auto;
+    margin: 1% 0;
+    background-color: #F2F2F2;
+}
+
+.projects--img {
+    width: 33%;
+    height: 230px;
+}
+
